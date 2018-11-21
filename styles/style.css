@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+}
+
+/**Font-Sizes**/
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+/**Header**/
+
+.hero_container {
+width: 100vw;
+height: 45vh;
+min-height: 200px;
+background-color: blueviolet;
+position: static;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    background-color: gray;
+    overflow: hidden;
+    z-index:100;
+}
+
+.header.sticky {
+    position: fixed;
+    top: 0;
+    width:100vw;
+  }
+
+/**content_padding**/
+
+.content {
+padding: 16px;
+position: absolute;
+}
+
+/**Mediaqueries**/
+
+@media only screen and (max-width: 600px) {
+   
+    body {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    .header {
+        height: 60px;
+    }
+}
