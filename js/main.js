@@ -1,5 +1,3 @@
-window.onscroll = function() {myFunction()};
-
 var header = document.getElementById("myheader");
 var sticky = header.offsetTop;
 
@@ -10,3 +8,7 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+window.addEventListener('scroll', function() {
+  myFunction()
+});
